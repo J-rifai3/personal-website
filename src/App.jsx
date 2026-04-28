@@ -13,7 +13,7 @@ import EngineeringWorkPage from './pages/engineering/WorkPage.jsx'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/engineering/home" replace />} />
+      <Route path="/" element={<Navigate to="/cs/home" replace />} />
 
       <Route path="/engineering" element={<MainLayout basePath="/engineering" />}>
         <Route index element={<Navigate to="home" replace />} />
@@ -31,10 +31,10 @@ function App() {
         <Route path="contact" element={<CsContactPage />} />
       </Route>
 
-      <Route path="/about" element={<Navigate to="/engineering/about" replace />} />
-      <Route path="/work" element={<Navigate to="/engineering/work" replace />} />
-      <Route path="/contact" element={<Navigate to="/engineering/contact" replace />} />
-      <Route path="*" element={<Navigate to="/engineering/home" replace />} />
+      <Route path="/about" element={<Navigate to="/cs/about" replace />} />
+      <Route path="/work" element={<Navigate to="/cs/work" replace />} />
+      <Route path="/contact" element={<Navigate to="/cs/contact" replace />} />
+      <Route path="*" element={<Navigate to="/cs/home" replace />} />
     </Routes>
   )
 }
