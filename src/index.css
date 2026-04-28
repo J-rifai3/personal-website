@@ -1,0 +1,78 @@
+:root {
+  --bg-base: #0b1730;
+  --bg-top: #13284d;
+  --bg-bottom: #091327;
+  --ink-strong: #0f274a;
+  --ink-body: #314f77;
+  --ink-muted: #5d769a;
+  --surface-0: #f7faff;
+  --surface-1: #ffffff;
+  --line-soft: #d6e1f4;
+  --line-strong: #b9caea;
+  --accent: #1d4f91;
+  --accent-soft: #e3edff;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Inter',
+    'Avenir Next',
+    'Segoe UI',
+    'SF Pro Text',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background:
+    radial-gradient(1200px 640px at 7% -5%, rgba(140, 176, 235, 0.33), transparent 65%),
+    radial-gradient(900px 520px at 95% 8%, rgba(84, 129, 203, 0.22), transparent 60%),
+    linear-gradient(180deg, var(--bg-top) 0%, var(--bg-base) 45%, var(--bg-bottom) 100%);
+  color: var(--ink-strong);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  padding: 1.2rem 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 4.5vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+  color: var(--ink-strong);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.2vw, 1.95rem);
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.7rem;
+  color: var(--ink-strong);
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.35rem;
+  color: #18365f;
+}
+
+p {
+  color: var(--ink-body);
+  line-height: 1.6;
+}
