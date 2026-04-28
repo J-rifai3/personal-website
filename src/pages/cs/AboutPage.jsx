@@ -7,7 +7,7 @@ function CsAboutPage() {
       <p className="eyebrow">About</p>
       <h2>A little about me.</h2>
       <p className="lead">
-        - Originally from Chattanooga
+        - Originally from Chattanooga, TN
         <br />
         - Valedictorian of my high school
         <br />
