@@ -11,6 +11,8 @@ function CsAboutPage() {
         <br />
         - Valedictorian of my high school
         <br />
+        - Teaching Assistant for CS 1332 (Data Structures and Algorithms)
+        <br />
         - Done work in YJSP Rocket Club's avionics team
         <br />
         - Completed many personal projects in robotics and software
