@@ -23,6 +23,17 @@ function CsContactPage() {
           </a>
         </p>
         <p>
+          <strong>Github:</strong>{' '}
+          <a
+            className="contact-link"
+            href="https://github.com/J-rifai3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/J-rifai3
+          </a>
+        </p>
+        <p>
           <strong>Phone:</strong>{' '}
           <a className="contact-link" href="tel:+17622316652">
             (762) 231-6652
